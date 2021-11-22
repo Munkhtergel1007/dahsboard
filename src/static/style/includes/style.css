@@ -1,9 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 .banner {
-    background-image: url('../../images/xps-ocAuPlfZXEc-unsplash.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    background-color:  #04715e;
 }
 
 .container {
@@ -16,4 +22,97 @@
     -moz-box-shadow: 0 0 5px #999;
     -webkit-box-shadow: 0 0 5px #999;
     box-shadow: 0 0 5px #999;
+}
+
+.button {
+    color: green;
+    box-shadow: 0 5px 10px rgb(60 120 187 / 15%);
+
+}
+.button:hover {
+    background-color:#04715e;
+    transition: .3s;
+    color: white;
+}
+
+.holbolt {
+    font-size: 13px;
+    color: #9b9b9b;
+}
+
+.clock {
+    font-size: 15px;
+    font-weight: 700;
+    color: #d1854b;
+    margin-left: 8px;
+    margin-right: 30px;
+}
+
+.icon {
+    margin-right: 30px;
+}
+.name {
+    font-size: 12px;
+    color: #343434;
+    margin-right: 30px;
+}
+
+.sidebar {
+    width: 212px;
+    background-color: #fff;
+    border-right: 1px solid #e5e9ec;
+    padding: 24px 16px;
+}
+
+.navItem {
+    width: 179px;
+    height: 40px;
+    padding: 0 24px;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 10px;
+}
+
+.navItem .icon {
+    color:  #04715e;
+    margin-right: 12px;
+}
+
+.navItem .text {
+    color: #606060;
+}
+
+.navItem:hover {
+    background-color: #04715e;
+    transition: .3s;
+    cursor: pointer;
+}
+.navItem:hover .icon {
+    color: white;
+}
+
+.navItem:hover .text {
+    color: white;
+    font-weight: 600;
+}
+
+.icon-container {
+    width: 189px;
+    height: 80px;
+}
+
+
+.icons {
+    color:#d1854b;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 100%; 
+}
+
+.texts {
+    display: block;
+    font-size: 11px;
+    line-height: 13px;
+    color: #9b9b9b;
+    margin-top: 8px;
 }

@@ -1,9 +1,11 @@
-import '../static/style/includes/style.css'
-import Info from '../Components/Info'
-import Card from '../Components/Card'
+import '../../static/style/includes/style.css'
+import Info from './Info'
+import Card from './Card'
 import { AiFillBank } from 'react-icons/ai'
 import { SiCommerzbank } from 'react-icons/si'
 import { BsFillPiggyBankFill } from 'react-icons/bs'
+
+
 const Content = () => {
     return <div className="grid grid-cols-2 gap-16">
         <div className="flex flex-col p-2">

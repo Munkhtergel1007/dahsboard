@@ -1,5 +1,5 @@
-import Header from "../Header";
-import Sidebar from "../Sidebar";
+import Header from "./Header";
+import Sidebar from "./Sidebar";
 const Template = props => {
     return <>
         <Header />

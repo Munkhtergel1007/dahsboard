@@ -1,4 +1,4 @@
-import '../static/style/includes/style.css'
+import '../../static/style/includes/style.css'
 
 const Card = (props) => {
     return <div className="flex flex-col items-center h-24 rounded-xl container">

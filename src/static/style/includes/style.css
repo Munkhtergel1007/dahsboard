@@ -116,3 +116,25 @@
     color: #9b9b9b;
     margin-top: 8px;
 }
+
+.accountContainer {
+    background-color:#04715e; 
+}
+
+
+.grids {
+    grid-template-columns: 0.6fr 1fr;
+}
+
+.guilgee {
+    background-color:#04715e; 
+    color: white
+}
+
+.aButton {
+    color:#04715e;
+}
+
+.cardIcon {
+    color:#d1854b;
+}
